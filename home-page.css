@@ -35,6 +35,11 @@ body {
   height: 300px;
 }
 
+#main #wrapper img {
+  width: 800px;
+  height: 300px;
+}
+
 #footer {
   height: 40px;
   border: 1px solid black;
