@@ -40,14 +40,33 @@ body {
 
 #header #nav {
   margin-top: 80px;
+  margin-left: 250px;
 }
 
 #header #nav ul li {
   list-style-type: none;
   display: inline;
   padding: 3px 8px 3px 8px;
-  background-color: green;
+  background-color: #99FF99;
   font-size: 21px;
+}
+
+#header #nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+#header #nav a:hover {
+  color: white;
+}
+
+#header #nav a:visited {
+  color: yellow;
+}
+
+#header #nav a:active {
+  color: red;
 }
 
 #footer {
