@@ -39,7 +39,7 @@ body {
 }
 
 #header #nav {
-  margin-top: 80px;
+  margin-top: -50px;
   margin-left: 250px;
 }
 
@@ -74,6 +74,11 @@ body {
   border: 1px solid black;
   text-align: center;
   font-size: 14px;
+}
+
+#header #logo img {
+  margin-top: 20px;
+  margin-left: -350px;
 }
 
 
