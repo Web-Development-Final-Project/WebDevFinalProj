@@ -1,46 +1,50 @@
-<!DOCTYPE html>
+
 <html>
+  <head>
+    <title>NYCFC Times - Contact Us</title>
+    <meta name="description" content="soccer news website" />
+    <meta name="keywords" content="soccer, news, major, league, america" />
+    <meta name="author" content="Nate and Daniel" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="contact.css" />
+    <script src="contact.js"></script>
+  </head>
 
-<head>
-  <title>Contact Us</title>
-  <meta name="description" content="soccer news website contact us page" />
-  <meta name="keywords" content="soccer, news, major, league, america" />
-  <meta name="author" content="Nate and Daniel" />
-  <meta http-equiv="content-type" content="text/html;charset="utf-8" />
-  <link rel="stylesheet" href="contact-us.css" type="text/css" />
-</head>
-  
-<body>
-  <div id="header">
-    <a href="home-page.html"><img src="images/samplelogo.jpg" alt="Website logo for N Y C F C Times"/></a>
-    <h1 id="siteName">The NYCFC Times</h1>
-
-    <div id="nav">
-      <ul>
-        <li> <a href="home-page.html">Home</a> </li>
-        <li> <a href="news.html">News</a> </li>
-        <li> <a href="scores.html">Scores</a> </li>
-        <li> <a href="trades.html">Trades</a> </li>
-        <li> <a href="highlights.html">Highlights</a> </li>
-        <li> <a href="contact.html">Contact Us</a> </li>
-      </ul>
-    </div>
-  </div>
-
-  <div id="contactInfo">
-    <h2>Contact Us</h2>
-    <div id="profile">
-      <!-- Insert profile information here -->
-    </div>
-    <div id="profile">
-      <!-- Insert profile information here -->
+  <body>
+    <div id="header">
+      <div id="logo"><img src="images/logo.png" width="200px"></div>
+      <div id="nav">
+        <ul>
+          <li> <a href="home-page.html">Home</a> </li>
+          <li> <a href="news.html">News</a> </li>
+          <li> <a href="scores.html">Scores</a> </li>
+          <li> <a href="trades.html">Trades</a> </li>
+          <li> <a href="highlights.html">Highlights</a> </li>
+          <li> <a href="contact.html">Contact Us </a> </li>
+        </ul>
+      </div>
     </div>
 
-  <div id="footer">
-    <a href="home-page.html"><img src="images/samplelogo.jpg" alt="Website logo for N Y C F C Times"/></a>
-    <p id="copyright">&copy; 2018 NYCFC Times. All rights reserved.</p>
-    <p id="edited">Last edited by Nathan Dayvault, 12 Oct 2018</p>
-  </div>
-</body>
+    <div id="wrapper">
+    <div id="mainform">
+      <h2>Reach out to the NYCFC Times team with any feedback or questions!</h2>
+      <form id="form">
+        <h3>Contact Form</h3>
+        <p id="returnmessage"></p>
+        <label>Name: <span>*</span></label>
+        <input type="text" id="name" placeholder="Name"/>
+        <label>Email: <span>*</span></label>
+        <input type="text" id="email" placeholder="Email"/>
+        <label>Contact No: <span>*</span></label>
+        <input type="text" id="contact" placeholder="10 digit Mobile no."/>
+        <label>Message:</label>
+        <textarea id="message" placeholder="Message......."></textarea>
+        <input type="button" id="submit" value="Send Message"/>
+      </form>
+    </div>
 
+    <div id="footer"> &copy; 2018 NYCFC Times. All rights reserved. </div>
+    </div> <!-- closes div "wrapper" -->
+
+  </body>
 </html>
